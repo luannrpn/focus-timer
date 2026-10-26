@@ -1,0 +1,38 @@
+:root {
+  --ink: #0e0d0b;
+  --ink-2: #171512;
+  --line: #2a2723;
+  --paper: #f3eee4;
+  --muted: #9b9488;
+  --accent: #c4a8ff;
+  --on-accent: #0e0d0b;
+  --ok: #c8f169;
+  --bad: #ff6b5e;
+
+  --font: 'Instrument Sans Variable', 'Instrument Sans', system-ui, sans-serif;
+
+  --step--1: clamp(0.8rem, 0.78rem + 0.1vw, 0.875rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --step-1: clamp(1.25rem, 1.1rem + 0.7vw, 1.65rem);
+  --step-2: clamp(1.75rem, 1.3rem + 2vw, 3rem);
+  --step-3: clamp(2.5rem, 1.5rem + 4.5vw, 5.5rem);
+  --step-hero: clamp(3rem, 1rem + 9vw, 10rem);
+
+  --gutter: clamp(1rem, 4vw, 3rem);
+  --radius: 20px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --ink: #f3eee4;
+    --ink-2: #ebe5d8;
+    --line: #d6cfbf;
+    --paper: #14120f;
+    --muted: #6d675c;
+    --accent: #5b34c2;
+    --on-accent: #ffffff;
+    --ok: #3d6b00;
+    --bad: #b3261e;
+  }
+}
